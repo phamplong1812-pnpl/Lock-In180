@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOCK IN 180 | Freelance Business OS</title>
+<style>
+:root{--bg:#090d14;--panel:#111824;--panel2:#172231;--line:#263447;--text:#edf3fb;--muted:#91a0b4;--green:#39d98a;--blue:#65a9ff;--amber:#ffc66d}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#15253a 0,transparent 34%),var(--bg);color:var(--text);font:15px/1.55 Inter,system-ui,Arial}
+.app{max-width:1200px;margin:auto;padding:24px}.top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:24px}.brand{font-weight:900;letter-spacing:2px}.brand span{color:var(--green)}.tag{color:var(--muted);font-size:12px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 24px}button,.btn{background:var(--panel2);border:1px solid var(--line);color:var(--text);padding:10px 14px;border-radius:10px;cursor:pointer}button.active,button:hover{border-color:var(--green);color:var(--green)}
+section{display:none}section.active{display:block}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:linear-gradient(145deg,var(--panel),#0f1722);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:14px}.wide{grid-column:span 2}.kicker{color:var(--muted);font-size:11px;letter-spacing:1.2px;text-transform:uppercase}.big{font-size:30px;font-weight:850;margin:5px 0}.green{color:var(--green)}.muted{color:var(--muted)}.bar{height:8px;background:#263344;border-radius:99px;overflow:hidden;margin:10px 0}.bar i{display:block;height:100%;background:var(--green)}h1{font-size:27px;margin:5px 0 15px}h2{font-size:18px;margin:0 0 12px}h3{font-size:15px;margin:12px 0 6px}.row{display:flex;justify-content:space-between;gap:12px;align-items:center}.pill{font-size:11px;color:var(--green);border:1px solid #28664a;border-radius:99px;padding:4px 8px}label{display:block;color:var(--muted);font-size:12px;margin:9px 0 4px}input,textarea,select{width:100%;padding:10px;background:#0b121c;border:1px solid var(--line);border-radius:9px;color:var(--text)}textarea{min-height:80px} .task{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid #202d3d}.task input{width:auto}.task label{margin:0;color:var(--text);font-size:14px}.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}.small{font-size:12px}.table{width:100%;border-collapse:collapse}.table td,.table th{text-align:left;padding:10px;border-bottom:1px solid var(--line);font-size:13px}.table th{color:var(--muted)}.notice{border-left:3px solid var(--amber);padding:10px 13px;background:#241e14;border-radius:7px;color:#f4d8a8}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.primary{background:var(--green);color:#07130d;border:0;font-weight:800}.danger{color:#ff9999}.phase{padding:13px;border:1px solid var(--line);border-radius:12px;margin:9px 0}.phase strong{color:var(--green)}.hide{display:none}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.wide{grid-column:span 2}.cols{grid-template-columns:1fr}.app{padding:14px}.big{font-size:25px}}
+</style></head>
+<body><div class="app">
+<header class="top"><div><div class="brand">LOCK IN <span>180</span></div><div class="tag">FREELANCE BUSINESS OS · VERSION 2.0</div></div><div class="tag">360 HOURS · 180 DAYS</div></header>
+<nav>
+<button class="active" data-tab="dashboard">Dashboard</button><button data-tab="today">Daily Mission</button><button data-tab="roadmap">Roadmap 180D</button><button data-tab="portfolio">Portfolio</button><button data-tab="pipeline">Client Pipeline</button><button data-tab="analytics">Analytics</button>
+</nav>
+<section id="dashboard" class="active">
+<h1>Build skills. Build proof. Build channels.</h1>
+<div class="grid">
+<div class="card"><div class="kicker">Income autonomy</div><div class="big green">51/100</div><div class="muted small">Current self-assessment · Level 2</div><div class="bar"><i style="width:51%"></i></div></div>
+<div class="card"><div class="kicker">Target income</div><div class="big">22M₫</div><div class="muted small">Planning target / month, not guaranteed</div></div>
+<div class="card"><div class="kicker">Hours logged</div><div class="big" id="hoursBig">0h</div><div class="muted small">Of 360 focused hours</div><div class="bar"><i id="hoursBar" style="width:0%"></i></div></div>
+<div class="card"><div class="kicker">Active leads</div><div class="big" id="leadBig">0</div><div class="muted small">Tracked prospects</div></div>
+<div class="card wide"><div class="row"><h2>Current business focus</h2><span class="pill">PRIMARY NICHE</span></div><h3>E-commerce / Shopify Video Ads</h3><p class="muted">Short-form 15–30s product and direct-response edits for small online brands. Build three English-language sample case studies before scaling outreach.</p><div class="notice small">The 51/100 score and revenue model are planning inputs, not verified financial results. Track actual numbers separately.</div></div>
+<div class="card wide"><h2>Monthly operating targets</h2><div class="cols"><div><div class="kicker">Time available</div><div class="big">5–10h <span class="small muted">/ week</span></div></div><div><div class="kicker">Revenue model to test</div><div class="big">4 projects</div><div class="small muted">At approx. 5.6M₫ average each</div></div></div><p class="small muted">Validate scope, delivery time, pricing, platform fees, taxes and payment arrangements before treating this as a forecast.</p></div>
+</div>
+</section>
+<section id="today">
+<h1>Today's LOCK IN mission</h1><p class="muted">Day 1 · Reset the business direction around proof and a second acquisition channel.</p>
+<div class="card"><div class="row"><h2>Mission: Define your E-commerce Video Ads offer</h2><span class="pill">90 MIN CORE</span></div>
+<div class="notice small">You have 5–10 hours per week, not two hours every day. Today's plan is intentionally 90 minutes. If it's late or you're busy, do the 30-minute minimum and continue another day.</div>
+<h3>Block 1 · Learn one skill · 20 min</h3><p>Study the structure of a direct-response product video: hook → product problem/desire → demonstration → benefit → call to action. Analyze two ads and write down the structure. Do not just watch passively.</p>
+<h3>Block 2 · Produce an asset · 45 min</h3><p>Create a 15–20 second vertical sample using footage you own or have permission to use. Focus on one product, one benefit, readable captions and a clear opening. Export a draft and save it as <b>Case-01-Draft.mp4</b>.</p>
+<h3>Block 3 · Market research · 25 min</h3><p>Review five small e-commerce brands' public social content. Note product category, current video style, one improvement opportunity and why your sample would be relevant. Do not send unsolicited messages to strangers today.</p>
+<div class="card" style="background:#0b131e"><h3>30-minute minimum</h3><p>10 min analyze one ad · 15 min edit a 5–8 second hook · 5 min record one brand profile and one improvement opportunity.</p></div>
+<h3>Completion checklist</h3>
+<div id="todayTasks">
+<div class="task"><input type="checkbox" data-task="t1"><label>Wrote the 5-part ad structure from two examples</label></div>
+<div class="task"><input type="checkbox" data-task="t2"><label>Exported one 15–20s sample draft (or 5–8s minimum)</label></div>
+<div class="task"><input type="checkbox" data-task="t3"><label>Recorded five brands or completed the 30-minute minimum</label></div>
+</div>
+<label>Actual focused time today (minutes)</label><input type="number" id="todayMinutes" min="0" max="600" placeholder="e.g. 90">
+<label>Today's measurable result / note</label><textarea id="todayNote" placeholder="e.g. Sample hook is clear; pacing needs improvement..."></textarea>
+<div class="actions"><button class="primary" onclick="saveToday()">Save today's progress</button></div>
+<p id="todaySaved" class="small green"></p>
+</div>
+</section>
+<section id="roadmap">
+<h1>180-day roadmap</h1><p class="muted">Built for 5–10 hours/week. The 360-hour target is a stretch total; log actual hours honestly and adjust the finish date if needed.</p>
+<div class="phase"><strong>Days 1–30 · Positioning & proof</strong><p>Choose one primary niche; audit editing strengths; define service scope; create three original English-language sample case studies; document before/after and editing decisions.</p><div class="small muted">Milestone: 3 credible samples + one clear offer.</div></div>
+<div class="phase"><strong>Days 31–60 · Profile & sales assets</strong><p>Build a concise portfolio page; write service description, process, FAQ and contact method; prepare profile copy and platform-readiness checklist; test package scope and delivery time.</p><div class="small muted">Milestone: portfolio and two clearly scoped offers.</div></div>
+<div class="phase"><strong>Days 61–90 · Market research & proposals</strong><p>Analyze 30 relevant job descriptions or public buyer needs; create proposal templates; practice tailoring each pitch to a real business problem; maintain a lead sheet.</p><div class="small muted">Milestone: a repeatable research and proposal workflow.</div></div>
+<div class="phase"><strong>Days 91–120 · Outreach & message testing</strong><p>Use only channels you're eligible to use. Test concise, personalized outreach with appropriate adult guidance where required; track response quality; refine niche and positioning.</p><div class="small muted">Milestone: consistent outreach process and evidence about message fit.</div></div>
+<div class="phase"><strong>Days 121–150 · Client communication & delivery</strong><p>Practice discovery questions, scope, revision limits, timelines, file handoff, feedback and project documentation. Build a delivery checklist and client update templates.</p><div class="small muted">Milestone: professional end-to-end delivery workflow.</div></div>
+<div class="phase"><strong>Days 151–180 · Diversification & review</strong><p>Compare lead sources, review conversion and project effort, strengthen the best-performing channel, develop a second compliant channel, and plan sustainable repeat work.</p><div class="small muted">Milestone: reduce dependence on a single source of leads.</div></div>
+</section>
+<section id="portfolio">
+<h1>Portfolio & offers</h1><div class="cols">
+<div class="card"><h2>Case study tracker</h2><label>Project / sample name</label><input id="caseName" placeholder="e.g. Skincare Product Ad 01"><label>Target buyer</label><input id="caseBuyer" placeholder="e.g. Small skincare e-commerce brand"><label>Asset status</label><select id="caseStatus"><option>Idea</option><option>In progress</option><option>Draft exported</option><option>Reviewed</option><option>Published in portfolio</option></select><label>What does this sample prove?</label><textarea id="caseProof"></textarea><button class="primary" onclick="addCase()">Add case study</button></div>
+<div class="card"><h2>Offer builder</h2><label>Offer name</label><input id="offerName" placeholder="One short-form product ad"><label>Deliverables</label><textarea id="offerScope" placeholder="Length, format, captions, revisions, source footage..."></textarea><label>Test price (optional)</label><input id="offerPrice" placeholder="Set only after scope/time validation"><button onclick="saveOffer()">Save offer</button><p class="small muted">Price ranges from the self-assessment are hypotheses, not validated market rates.</p></div>
+</div><div class="card"><h2>Your case studies</h2><div id="caseList" class="muted small">No case studies added yet.</div></div><div class="card"><h2>Saved offers</h2><div id="offerList" class="muted small">No offers saved yet.</div></div>
+</section>
+<section id="pipeline">
+<h1>Client acquisition tracker</h1><p class="muted">Track sources and conversations without exposing private client information. Use initials or business names only when appropriate.</p>
+<div class="card"><div class="cols"><div><label>Lead / brand</label><input id="leadName" placeholder="Brand or lead label"><label>Source</label><select id="leadSource"><option>Existing network</option><option>Portfolio inbound</option><option>Professional social network</option><option>Marketplace (eligible account only)</option><option>Other</option></select><label>Stage</label><select id="leadStage"><option>Researching</option><option>Qualified</option><option>Contacted</option><option>Replied</option><option>Discussing scope</option><option>Won</option><option>Closed / no fit</option></select></div><div><label>Next action</label><input id="leadNext" placeholder="e.g. Improve sample / follow up with permission"><label>Follow-up date</label><input id="leadDate" type="date"><label>Notes</label><textarea id="leadNotes"></textarea></div></div><button class="primary" onclick="addLead()">Add lead</button></div>
+<div class="card"><h2>Pipeline</h2><div id="leadList" class="muted small">No leads recorded yet.</div></div>
+</section>
+<section id="analytics">
+<h1>Analytics</h1><div class="grid">
+<div class="card"><div class="kicker">Focused hours</div><div class="big" id="aHours">0</div></div><div class="card"><div class="kicker">Portfolio samples</div><div class="big" id="aCases">0</div></div><div class="card"><div class="kicker">Leads tracked</div><div class="big" id="aLeads">0</div></div><div class="card"><div class="kicker">Won projects</div><div class="big" id="aWon">0</div></div>
+</div><div class="card"><h2>Hours log</h2><label>Add focused minutes</label><input type="number" id="logMinutes" min="1" placeholder="e.g. 45"><label>What did you produce?</label><input id="logOutput" placeholder="e.g. Finished first ad sample"><button class="primary" onclick="logHours()">Add to 360-hour tracker</button><div id="logList" class="small muted" style="margin-top:12px"></div></div>
+<div class="card"><h2>Data portability</h2><p class="muted small">Your entries are stored in this browser on this device. Export a backup regularly. This version does not sync across devices.</p><div class="actions"><button onclick="exportData()">Export JSON backup</button><label class="btn">Import JSON backup<input type="file" id="importFile" accept="application/json" style="display:none" onchange="importData(event)"></label><button class="danger" onclick="resetData()">Reset all data</button></div></div>
+</section>
+<footer class="muted small" style="padding:20px 0">LOCK IN 180 · Personal planning tool · Progress is based on your own logged activity.</footer>
+</div>
+<script>
+const KEY='lockin180_v2_data';
+let d=JSON.parse(localStorage.getItem(KEY)||'{"minutes":0,"logs":[],"leads":[],"cases":[],"offers":[],"today":{}}');
+function persist(){localStorage.setItem(KEY,JSON.stringify(d));render()}
+document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('section').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.tab).classList.add('active');render()}));
+function el(id){return document.getElementById(id)}
+function saveToday(){d.today={minutes:+el('todayMinutes').value||0,note:el('todayNote').value,checks:[...document.querySelectorAll('[data-task]')].map(x=>x.checked)};persist();el('todaySaved').textContent='Đã lưu tiến độ hôm nay.'}
+function logHours(){let m=+el('logMinutes').value;if(!m||m<1)return alert('Nhập số phút hợp lệ.');d.minutes+=m;d.logs.unshift({m,out:el('logOutput').value,date:new Date().toLocaleDateString('vi-VN')});el('logMinutes').value='';el('logOutput').value='';persist()}
+function addLead(){if(!el('leadName').value.trim())return alert('Nhập tên hoặc nhãn lead.');d.leads.unshift({name:el('leadName').value,source:el('leadSource').value,stage:el('leadStage').value,next:el('leadNext').value,date:el('leadDate').value,notes:el('leadNotes').value});['leadName','leadNext','leadDate','leadNotes'].forEach(x=>el(x).value='');persist()}
+function addCase(){if(!el('caseName').value.trim())return alert('Nhập tên case study.');d.cases.unshift({name:el('caseName').value,buyer:el('caseBuyer').value,status:el('caseStatus').value,proof:el('caseProof').value});['caseName','caseBuyer','caseProof'].forEach(x=>el(x).value='');persist()}
+function saveOffer(){if(!el('offerName').value.trim())return alert('Nhập tên offer.');d.offers.unshift({name:el('offerName').value,scope:el('offerScope').value,price:el('offerPrice').value});['offerName','offerScope','offerPrice'].forEach(x=>el(x).value='');persist()}
+function render(){let h=(d.minutes/60).toFixed(1);el('hoursBig').textContent=h+'h';el('hoursBar').style.width=Math.min(100,d.minutes/21600*100)+'%';el('leadBig').textContent=d.leads.length;el('aHours').textContent=h;el('aCases').textContent=d.cases.length;el('aLeads').textContent=d.leads.length;el('aWon').textContent=d.leads.filter(x=>x.stage==='Won').length;
+el('caseList').innerHTML=d.cases.length?d.cases.map(x=>`<p><b>${esc(x.name)}</b> · ${esc(x.status)}<br><span class="muted">${esc(x.buyer)} · ${esc(x.proof)}</span></p>`).join(''):'No case studies added yet.';
+el('offerList').innerHTML=d.offers.length?d.offers.map(x=>`<p><b>${esc(x.name)}</b> · ${esc(x.price)}<br><span class="muted">${esc(x.scope)}</span></p>`).join(''):'No offers saved yet.';
+el('leadList').innerHTML=d.leads.length?`<table class="table"><tr><th>Lead</th><th>Source</th><th>Stage</th><th>Next action</th></tr>${d.leads.map(x=>`<tr><td>${esc(x.name)}</td><td>${esc(x.source)}</td><td>${esc(x.stage)}</td><td>${esc(x.next)} ${esc(x.date)}</td></tr>`).join('')}</table>`:'No leads recorded yet.';
+el('logList').innerHTML=d.logs.slice(0,12).map(x=>`<p>+${x.m} min · ${esc(x.date)} · ${esc(x.out)}</p>`).join('')||'No time logged yet.';
+if(d.today){el('todayMinutes').value=d.today.minutes||'';el('todayNote').value=d.today.note||'';(d.today.checks||[]).forEach((v,i)=>{let c=document.querySelector(`[data-task="t${i+1}"]`);if(c)c.checked=v})}
+}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function exportData(){let a=document.createElement('a'),b=new Blob([JSON.stringify(d,null,2)],{type:'application/json'});a.href=URL.createObjectURL(b);a.download='lock-in-180-backup.json';a.click();URL.revokeObjectURL(a.href)}
+function importData(e){let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{d=JSON.parse(r.result);persist();alert('Đã nhập dữ liệu.')}catch{alert('File JSON không hợp lệ.')}};r.readAsText(f)}
+function resetData(){if(confirm('Xóa toàn bộ dữ liệu trên trình duyệt này?')){localStorage.removeItem(KEY);d={minutes:0,logs:[],leads:[],cases:[],offers:[],today:{}};persist()}}
+render();
+</script></body></html>
